@@ -23,6 +23,7 @@ python shr.py
 
 🌐 Public Link Generation
 After starting the tool, open a New Session in Termux and run:
+
 pkg install cloudflared -y
 cloudflared tunnel --url http://127.0.0.1:8080
 
